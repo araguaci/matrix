@@ -60,7 +60,6 @@
         this.swichInterval = round(random(5, 20));
         this.first = first;
 
-        /* change Unicode here */
         this.setRandomValue = function () {
           if (frameCount % this.swichInterval == 0) {
             this.value = String.fromCharCode(0x1400 + round(random(0, 640)));
